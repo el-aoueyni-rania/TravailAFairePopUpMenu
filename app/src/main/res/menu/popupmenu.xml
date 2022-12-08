@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/color"
+        android:title="couleur"
+        app:showAsAction="never" >
+        <menu>
+            <group
+                android:id="@+id/menugroup"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/bleu"
+                    android:title="bleu"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/red"
+                    android:title="rouge"
+                    app:showAsAction="never" />
+            </group>
+
+       </menu>
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="item2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item3"
+        android:title="item3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item4"
+        android:title="item4"
+        app:showAsAction="never" />
+
+</menu>
